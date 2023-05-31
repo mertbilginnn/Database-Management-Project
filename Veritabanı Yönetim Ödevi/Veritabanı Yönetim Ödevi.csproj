@@ -53,17 +53,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DBconnect.cs" />
-    <Compile Include="Forms\mainForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\mainForm.Designer.cs">
-      <DependentUpon>mainForm.cs</DependentUpon>
-    </Compile>
     <Compile Include="Forms\loginForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Forms\loginForm.Designer.cs">
       <DependentUpon>loginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\tableForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\tableForm.Designer.cs">
+      <DependentUpon>tableForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -71,8 +71,8 @@
     <EmbeddedResource Include="Forms\loginForm.resx">
       <DependentUpon>loginForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\mainForm.resx">
-      <DependentUpon>mainForm.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\tableForm.resx">
+      <DependentUpon>tableForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

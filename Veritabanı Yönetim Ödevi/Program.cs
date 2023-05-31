@@ -17,7 +17,7 @@ namespace Veritabanı_Yönetim_Ödevi
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new mainForm());
+            Application.Run(new loginForm());
         }
     }
 }
